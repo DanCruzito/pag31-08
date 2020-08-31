@@ -1,0 +1,35 @@
+
+.wrapper-client {
+padding: 0px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slider-client {
+  
+  width: 100%;
+  height: 300px;
+  position: relative;
+  background: white;
+  box-shadow: 0 10px 20px -10px rgba(0,0,0,0.2);
+  display: flex;
+  overflow: hidden;
+}
+.slide-client {
+ padding: 30px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  animation: slideshow 40s linear infinite;
+}
+@keyframes slideshow {
+  0% {transform: translateX(0);}
+  100% {transform: translateX(-100%);}
+}
+.slide-client img {
+ padding: 10px;
+}
+
+
